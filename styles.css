@@ -6,3 +6,53 @@ body {
     background-repeat: no-repeat;
     font-weight: 400;
 }
+.carousel-element  {
+    padding-bottom: 100px;
+}
+
+.price-box-1 { 
+    height: 26rem;
+    position: relative;
+    top: -38px;
+}
+
+
+
+ 
+     /* --- mobile  device */
+@media only screen and (max-width: 576px) {
+    .price-box-1 {
+        position: relative;
+        top: 0px;
+        margin: 16px 0px;
+        height: 24rem;
+          }
+}
+
+
+
+/* --- mobile-2 device --sm-- */
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+    .price-box-1 {
+        position: relative;
+        top: 0px;
+        margin: 16px 0px;
+        height: 22rem;
+          }
+}
+
+/* ---tablet device --md-- */
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+    .price-box-1 {
+        position: relative;
+        top: 0px;
+        height: 22rem;
+          }
+}
+
+
+
+/* --- desktop device --lg-- */
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+
+        }
